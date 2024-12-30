@@ -47,25 +47,26 @@ By automating the process of tracking trends, summarizing information, and analy
 
 
 
-Example Workflow
-Input Data: News articles and YouTube statistics related to trending keywords (e.g., “AI”).
-Generate Embeddings: The raw text data from YouTube videos and news articles are converted into embeddings using the Sentence-BERT model.
-Search with Query: Perform a query like "What’s trending in AI?" to retrieve relevant news articles and YouTube video data.
-Summarization: The retrieved results are summarized using GPT-based models, providing you with concise insights.
-Technology Stack
-Language: Python
-Libraries:
-faiss for fast similarity search
-sentence-transformers for generating embeddings
-tensorflow for AI-based summarization models
-numpy, json, os for data processing
-Models:
-all-MiniLM-L6-v2 for embedding generation
-GPT-based models for summarization
-Contributing
-We welcome contributions to make this project even better! Whether you're improving the summarization algorithms, adding new features, or fixing bugs, we appreciate your help.
+### Example Workflow
+- **Input Data**: News articles {Google News API} and YouTube statistics related to trending keywords extracted with 'pytrends' (e.g., “AI”).
+- **Generate Embeddings**: The statistical video analysis from the YouTube and news articles are converted into embeddings using the Sentence-BERT model.
+- **Search with Query**: Perform a query like "What’s trending in AI?" to retrieve relevant news articles [Key terms] and YouTube video data.
+- **Summarization**: The retrieved results are summarized using GPT-based models, providing you with concise insights.
+
+### Technology Stack  
+
+#### Language  
+- Python  
+
+#### Libraries  
+- **FAISS**: For fast similarity search and nearest-neighbor retrieval.  
+- **sentence-transformers**: For generating embeddings using pre-trained models.  
+- **TensorFlow**, **LangChain**: For AI-based summarization models.  
+- **NumPy**, **JSON**, **OS**: For efficient data processing and handling.  
+
+#### Models  
+- **all-MiniLM-L6-v2**: Used for generating high-quality embeddings.  
+- **GPT-based Models**: Utilized for text summarization tasks.  
 
 
 
-Creators: Stay Ahead of the Curve!
-With more creators joining the space every day, it’s crucial to have a tool that helps you stay informed and ahead of the competition. By using this tool, you can access the latest data, track trends, and generate actionable insights that will improve your content creation process.

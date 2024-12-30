@@ -47,13 +47,13 @@ By automating the process of tracking trends, summarizing information, and analy
 
 
 
-### Example Workflow
+## Example Workflow
 - **Input Data**: News articles {Google News API} and YouTube statistics related to trending keywords extracted with 'pytrends' (e.g., “AI”).
 - **Generate Embeddings**: The statistical video analysis from the YouTube and news articles are converted into embeddings using the Sentence-BERT model.
 - **Search with Query**: Perform a query like "What’s trending in AI?" to retrieve relevant news articles [Key terms] and YouTube video data.
 - **Summarization**: The retrieved results are summarized using GPT-based models, providing you with concise insights.
 
-### Technology Stack  
+## Technology Stack  
 
 #### Language  
 - Python  

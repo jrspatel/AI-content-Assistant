@@ -1,6 +1,6 @@
 # Content Assistant for Creators: AI-Powered Insights
 
-![AI Content Assistant](https://via.placeholder.com/800x400.png) <!-- Replace this URL with your image URL -->
+-- ![AI Content Assistant](https://via.placeholder.com/800x400.png) <!-- Replace this URL with your image URL -->
 
 ## Background
 With the rapid growth of content creators across various platforms like YouTube, blogs, and news websites, staying updated with the latest trends, performance metrics, and content ideas has become a challenge. The increasing number of creators and the evolving content landscape demand a tool that can assist in analyzing real-time data and offer actionable insights. 
@@ -44,7 +44,7 @@ By automating the process of tracking trends, summarizing information, and analy
 - Perform queries to retrieve relevant information (e.g., "What’s trending in AI?").
 - Display the most relevant results based on user queries and summarize them using GPT models.
 
-![Workflow Example](https://via.placeholder.com/800x400.png) <!-- Replace this URL with your image URL -->
+-- ![Workflow Example](https://via.placeholder.com/800x400.png) <!-- Replace this URL with your image URL -->
 
 ## Installation
 

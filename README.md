@@ -1,6 +1,6 @@
 # Content Assistant for Creators: AI-Powered Insights
 
--- ![AI Content Assistant](https://via.placeholder.com/800x400.png) <!-- Replace this URL with your image URL -->
+
 
 ## Background
 With the rapid growth of content creators across various platforms like YouTube, blogs, and news websites, staying updated with the latest trends, performance metrics, and content ideas has become a challenge. The increasing number of creators and the evolving content landscape demand a tool that can assist in analyzing real-time data and offer actionable insights. 
@@ -44,35 +44,8 @@ By automating the process of tracking trends, summarizing information, and analy
 - Perform queries to retrieve relevant information (e.g., "What’s trending in AI?").
 - Display the most relevant results based on user queries and summarize them using GPT models.
 
--- ![Workflow Example](https://via.placeholder.com/800x400.png) <!-- Replace this URL with your image URL -->
 
-## Installation
 
-### 1. Clone the repository
-Start by cloning this repository to your local machine:
-```bash
-git clone https://github.com/your-username/content-assistant.git
-
-### 2. Install Dependencies
-'''bash
-cd content-assistant
-pip install -r requirements.txt
-
-Usage
-1. Running the Embedding Generation Script
-You can generate embeddings for your data (YouTube statistics and news articles) by running the following command:
-
-bash
-Copy code
-python embeddings.py
-2. Running the RAG (Retrieve and Generate) Script
-Once embeddings are generated, you can use the RAG model to query the data and retrieve relevant information by running:
-
-bash
-Copy code
-python rag.py
-3. Visualizing Results
-The system will return the top 5 most relevant results based on the query entered and provide summaries using GPT-based models. You will see a summary of what’s trending in your niche or a specific keyword.
 
 Example Workflow
 Input Data: News articles and YouTube statistics related to trending keywords (e.g., “AI”).
